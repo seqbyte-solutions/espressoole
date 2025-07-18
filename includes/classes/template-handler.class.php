@@ -14,7 +14,7 @@ class TemplateHandler
     {
         global $post;
 
-        if (get_option('espressoole_maintenance_mode') === true ) {
+        if (get_option('espressoole_maintenance_mode') ) {
             ob_start();
             get_template_part('templates/maintenance');
 
@@ -27,11 +27,6 @@ class TemplateHandler
             $this->render_404_template();
             exit;
         }
-    }
-
-    private function render_maintenance_template()
-    {
-        
     }
 
     private function render_404_template()
