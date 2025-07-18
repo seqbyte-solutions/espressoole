@@ -2,6 +2,8 @@
 
 namespace Espressoole;
 
+use WP_Post;
+
 if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
@@ -12,10 +14,10 @@ class TemplateHandler
     {
         global $post;
 
-        if (get_option('espressoole_maintenance_mode')) {
-            $this->render_maintenance_template();
-        exit;
-        }
+        // if (get_option('espressoole_maintenance_mode')) {
+        //     $this->render_maintenance_template();
+        //     exit;
+        // }
 
         if(is_404()) {
             $this->render_404_template();
