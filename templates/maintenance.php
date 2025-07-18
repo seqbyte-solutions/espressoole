@@ -1,6 +1,5 @@
 <?php
 
-
 wp_enqueue_script('gsap-js', ESPRESSOOLE_URL . '/assets/js/gsap/minified/gsap.min.js', [], false, true);
 
 ?>
