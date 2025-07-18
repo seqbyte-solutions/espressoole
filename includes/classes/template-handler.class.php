@@ -28,10 +28,10 @@ class TemplateHandler
             exit;
         }
 
-        if(is_404()) {
-            $this->render_404_template();
-            exit;
-        }
+        // if(is_404()) {
+        //     $this->render_404_template();
+        //     exit;
+        // }
     }
 
     private function render_404_template()
