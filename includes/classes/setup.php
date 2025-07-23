@@ -12,6 +12,8 @@ class Setup {
 
         add_action('after_setup_theme', [$this, 'setup_theme_supports']);
 
+        add_action('wp_enqueue_scripts', [$this, 'enqueue_styles']);
+
     }
 
      public function setup_theme_supports(): void
@@ -25,5 +27,11 @@ class Setup {
         if (!get_option('espressoole_maintenance_mode')) {
             add_option('espressoole_maintenance_mode', true);
         }
+    }
+    
+    public function enqueue_styles(): void
+    {
+        wp_enqueue_style('espressoole-globals', ESPRESSOOLE_URL . '/assets/css/globals.css');
+   
     }
 }

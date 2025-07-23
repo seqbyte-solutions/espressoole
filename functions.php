@@ -12,6 +12,7 @@ class Espressoole
 
     public \Espressoole\Setup $setup;
     public \Espressoole\TemplateHandler $template_handler;
+    
 
     public function __construct()
     {
