@@ -32,6 +32,6 @@ class Setup {
     public function enqueue_styles(): void
     {
         wp_enqueue_style('espressoole-globals', ESPRESSOOLE_URL . '/assets/css/globals.css');
-   
+        wp_enqueue_style('espressoole-styles', ESPRESSOOLE_URL . '/assets/css/style.css', ['espressoole-globals']);
     }
 }

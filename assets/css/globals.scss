@@ -2,3 +2,64 @@
     font-family: 'Acumin';
     src: url('../fonts/AcuminVariableConcept.otf') format('opentype');
 }
+
+:root{
+
+    --dark-brown-100: rgba(58,32,22, 1);
+    --dark-brown-90: rgba(58,32,22, 0.9);
+    --dark-brown-80: rgba(58,32,22, 0.8);
+    --dark-brown-70: rgba(58,32,22, 0.7);
+    --dark-brown-60: rgba(58,32,22, 0.6);
+    --dark-brown-50: rgba(58,32,22, 0.5);
+    --dark-brown-40: rgba(58,32,22, 0.4);
+    --dark-brown-30: rgba(58,32,22, 0.3);
+    --dark-brown-20: rgba(58,32,22, 0.2);
+    --dark-brown-10: rgba(58,32,22, 0.1);
+    --dark-brown-0: rgba(58,32,22, 0.0);
+
+    --beige-100: rgba(240,226,197, 1);
+    --beige-90: rgba(240,226,197, 0.9);
+    --beige-80: rgba(240,226,197, 0.8);
+    --beige-70: rgba(240,226,197, 0.7);
+    --beige-60: rgba(240,226,197, 0.6);
+    --beige-50: rgba(240,226,197, 0.5);
+    --beige-40: rgba(240,226,197, 0.4);
+    --beige-30: rgba(240,226,197, 0.3);
+    --beige-20: rgba(240,226,197, 0.2);
+    --beige-10: rgba(240,226,197, 0.1);
+    --beige-0: rgba(240,226,197, 0.0);
+
+    --orange-100: rgba(255,92,0, 1);
+    --orange-90: rgba(255,92,0, 0.9);
+    --orange-80: rgba(255,92,0, 0.8);
+    --orange-70: rgba(255,92,0, 0.7);
+    --orange-60: rgba(255,92,0, 0.6);
+    --orange-50: rgba(255,92,0, 0.5);
+    --orange-40: rgba(255,92,0, 0.4);
+    --orange-30: rgba(255,92,0, 0.3);
+    --orange-20: rgba(255,92,0, 0.2);
+    --orange-10: rgba(255,92,0, 0.1);
+    --orange-0: rgba(255,92,0, 0.0);
+
+    --box-width: 1360px;
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Acumin', sans-serif;
+}
+
+.content-box {
+    max-width: var(--box-width);
+}
+
+.content-centered {
+    margin: 0 auto;
+}
