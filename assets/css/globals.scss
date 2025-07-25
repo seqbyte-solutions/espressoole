@@ -4,18 +4,29 @@
 }
 
 :root{
-
-    --dark-brown-100: rgba(58,32,22, 1);
-    --dark-brown-90: rgba(58,32,22, 0.9);
-    --dark-brown-80: rgba(58,32,22, 0.8);
-    --dark-brown-70: rgba(58,32,22, 0.7);
-    --dark-brown-60: rgba(58,32,22, 0.6);
-    --dark-brown-50: rgba(58,32,22, 0.5);
-    --dark-brown-40: rgba(58,32,22, 0.4);
-    --dark-brown-30: rgba(58,32,22, 0.3);
-    --dark-brown-20: rgba(58,32,22, 0.2);
-    --dark-brown-10: rgba(58,32,22, 0.1);
-    --dark-brown-0: rgba(58,32,22, 0.0);
+    --brown-100: rgba(58,32,22, 1);
+    --brown-90: rgba(58,32,22, 0.9);
+    --brown-80: rgba(58,32,22, 0.8);
+    --brown-70: rgba(58,32,22, 0.7);
+    --brown-60: rgba(58,32,22, 0.6);
+    --brown-50: rgba(58,32,22, 0.5);
+    --brown-40: rgba(58,32,22, 0.4);
+    --brown-30: rgba(58,32,22, 0.3);
+    --brown-20: rgba(58,32,22, 0.2);
+    --brown-10: rgba(58,32,22, 0.1);
+    --brown-0: rgba(58,32,22, 0.0);
+    
+    --dark-brown-100: rgba(38,20,10, 1);
+    --dark-brown-90: rgba(38,20,10, 0.9);
+    --dark-brown-80: rgba(38,20,10, 0.8);
+    --dark-brown-70: rgba(38,20,10, 0.7);
+    --dark-brown-60: rgba(38,20,10, 0.6);
+    --dark-brown-50: rgba(38,20,10, 0.5);
+    --dark-brown-40: rgba(38,20,10, 0.4);
+    --dark-brown-30: rgba(38,20,10, 0.3);
+    --dark-brown-20: rgba(38,20,10, 0.2);
+    --dark-brown-10: rgba(38,20,10, 0.1);
+    --dark-brown-0: rgba(38,20,10, 0.0);
 
     --beige-100: rgba(240,226,197, 1);
     --beige-90: rgba(240,226,197, 0.9);
@@ -54,6 +65,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Acumin', sans-serif;
+    background: var(--dark-brown-100);
 }
 
 .content-box {
