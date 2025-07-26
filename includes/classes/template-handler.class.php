@@ -15,6 +15,7 @@ class TemplateHandler
         // $espressoole_theme_pages = new \Espressoole\ThemePages();
         // $this->theme_pages = $espressoole_theme_pages->get_theme_pages();
 
+        add_filter('pre_get_document_title', [$this, 'custom_document_title']);
         add_action('wp_head', [$this, 'set_head']);
     }
 
@@ -29,7 +30,7 @@ class TemplateHandler
             exit;
         }
 
-        if (get_option('espressoole_maintenance_mode')) {
+        if (get_option('espressoole_maintenance_mode') && !current_user_can('manage_options')) {
             ob_start();
             get_template_part('templates/maintenance');
 
@@ -85,11 +86,12 @@ class TemplateHandler
         $theme_pages = new \Espressoole\ThemePages();
         $this->theme_pages = $theme_pages->get_theme_pages();
 
-        foreach ($this->theme_pages as $page) {
-
-            if ($page['slug'] === $page_slug) {
-                $page_template = strtr($page['template'], ['.php' => '']);
-                break;
+        foreach ($this->theme_pages as $locale => $pages) {
+            foreach ($pages as $page) {
+                if ($page['slug'] === $page_slug) {
+                    $page_template = strtr($page['template'], ['.php' => '']);
+                    break;
+                }
             }
         }
         get_template_part($page_template);
@@ -105,6 +107,17 @@ class TemplateHandler
 
     public function set_head(): void
     {
-        include get_theme_file_path('/parts/head.php');
+        get_template_part('parts/head');
+    }
+
+    public function custom_document_title($title): string
+    {
+
+        global $post;
+        $post_title = get_the_title($post->ID);
+        $title = is_front_page() ? "Fresh Roasted Party | Espressoole" : "{$post_title} | Espressoole";
+
+        // Fallback to default title if nothing matches
+        return $title;
     }
 }

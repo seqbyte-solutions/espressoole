@@ -1,0 +1,258 @@
+# Copyright (C) 2025 Seqbyte Solutions
+# This file is distributed under the GNU General Public License v2.0 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Espressoole 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/espressoole\n"
+"POT-Creation-Date: 2025-07-26T23:15:09+00:00\n"
+"PO-Revision-Date: 2025-07-27 02:16+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Domain: espressoole\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Espressoole"
+msgstr "Espressoole"
+
+#. Description of the theme
+#: style.css
+msgid "Custom theme for Espressoole website..."
+msgstr "Custom theme for Espressoole website..."
+
+#. Author of the theme
+#: style.css
+msgid "Seqbyte Solutions"
+msgstr "Seqbyte Solutions"
+
+#. Author URI of the theme
+#: style.css
+msgid "https://seqbyte.com"
+msgstr "https://seqbyte.com"
+
+#: parts/head.php:9
+msgid ""
+"Fresh Roasted Party este mai mult decât un party. E un statement. Un spațiu "
+"creat pentru vibe seekers și coffee rebels."
+msgstr ""
+"Fresh Roasted Party is more than just a party. It’s a statement. A space "
+"created for vibe seekers and coffee rebels."
+
+#: parts/head.php:10
+msgid ""
+"Espressoole, cafea, espresso, party, ritual urban, vip, romaero, fresh, "
+"roasted"
+msgstr ""
+"Espressoole, coffee, espresso, party, urban ritual, VIP, Romaero, fresh, "
+"roasted"
+
+#: parts/header.php:18 templates/homepage.php:187 templates/homepage.php:210
+#: templates/homepage.php:233 templates/homepage.php:256
+msgid "Cumpără bilet"
+msgstr "Buy ticket"
+
+#: parts/header.php:19 templates/homepage.php:164 templates/tickets.php:8
+msgid "Bilete"
+msgstr "Tickets"
+
+#: templates/contact.php:8
+msgid "Contact"
+msgstr "Contact"
+
+#: templates/contact.php:12
+msgid ""
+"Pentru orice întrebări sau informații suplimentare, nu ezitați să ne "
+"contactați folosind formularul de contact."
+msgstr ""
+"For any questions or additional information, don’t hesitate to contact us "
+"using the contact form."
+
+#: templates/contact.php:45
+msgid "Nume"
+msgstr "Name"
+
+#: templates/contact.php:49
+msgid "Adresa de email"
+msgstr "Email address"
+
+#: templates/contact.php:54
+msgid "Subiect"
+msgstr "Subject"
+
+#: templates/contact.php:58
+msgid "Mesaj"
+msgstr "Message"
+
+#: templates/contact.php:64
+msgid "Sunt de acord cu "
+msgstr "I agree with "
+
+#: templates/contact.php:65
+msgid "Politica de confidențialitate"
+msgstr "Privacy Policy"
+
+#: templates/contact.php:69 templates/contact.php:139
+msgid "Trimite"
+msgstr "Send"
+
+#: templates/contact.php:73
+msgid "Mesajul a fost trimis cu succes!"
+msgstr "The message was sent successfully!"
+
+#: templates/contact.php:76 templates/contact.php:136
+msgid "A apărut o eroare. Vă rugăm să încercați din nou."
+msgstr "An error occurred. Please try again."
+
+#: templates/contact.php:99
+msgid "Se încarcă"
+msgstr "Loading"
+
+#: templates/faq.php:6
+msgid "FAQ"
+msgstr "FAQ"
+
+#: templates/faq.php:11
+msgid "Question 1"
+msgstr ""
+
+#: templates/faq.php:14 templates/faq.php:26 templates/faq.php:36
+#: templates/faq.php:46
+msgid ""
+"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eius placeat, "
+"nesciunt magnam maiores esse eligendi tenetur aperiam. Impedit odio suscipit "
+"aspernatur maiores nulla quas assumenda, pariatur in tenetur voluptas.\r\n"
+"                    Lorem ipsum dolor sit amet consectetur adipisicing elit. "
+"Vitae eius placeat, nesciunt magnam maiores esse eligendi tenetur aperiam. "
+"Impedit odio suscipit aspernatur maiores nulla quas assumenda, pariatur in "
+"tenetur voluptas.\r\n"
+"                    Lorem ipsum dolor sit amet consectetur adipisicing elit. "
+"Vitae eius placeat, nesciunt magnam maiores esse eligendi tenetur aperiam. "
+"Impedit odio suscipit aspernatur maiores nulla quas assumenda, pariatur in "
+"tenetur voluptas."
+msgstr ""
+
+#: templates/faq.php:23
+msgid "Question 2"
+msgstr ""
+
+#: templates/faq.php:33
+msgid "Question 3"
+msgstr ""
+
+#: templates/faq.php:43
+msgid "Question 4"
+msgstr ""
+
+#: templates/homepage.php:77
+msgid "20 - 21 Septembrie | Romaero, București"
+msgstr "20–21 September | Romaero, Bucharest"
+
+#: templates/homepage.php:79
+msgid "Cumpără bilete"
+msgstr "Buy tickets"
+
+#: templates/homepage.php:89
+msgid "Fresh Roasted Party"
+msgstr "Fresh Roasted Party"
+
+#: templates/homepage.php:90
+msgid "Un nou ritual urban începe"
+msgstr "A new urban ritual begins"
+
+#: templates/homepage.php:93
+msgid "Ce-ar fi dacă energia dintr-o cafea bună ar lua formă?"
+msgstr "What if the energy of a good coffee took shape?"
+
+#: templates/homepage.php:94
+msgid "Dacă aroma s-ar transforma în beat."
+msgstr "If its aroma turned into a beat."
+
+#: templates/homepage.php:95
+msgid "Și dacă, pentru două zile, cafeaua chiar ar dansa?"
+msgstr "And what if, for two days, coffee really danced?"
+
+#: templates/homepage.php:99
+msgid ""
+"Când orașul merge pe pilot automat, tu cauți mai mult. Mai mult decât "
+"muzică. Mai mult decât cafea. Cauți vibe-ul. Cauți tribul tău."
+msgstr ""
+"When the city runs on autopilot, you’re looking for more. More than music. "
+"More than coffee. You’re searching for the vibe. For your tribe."
+
+#: templates/homepage.php:100
+msgid ""
+"<span>Fresh Roasted Party</span> este mai mult decât un party. E un "
+"statement. Un spațiu creat pentru vibe seekers și coffee rebels."
+msgstr ""
+"<span>Fresh Roasted Party</span> is more than just a party. It’s a "
+"statement. A space created for vibe seekers and coffee rebels."
+
+#: templates/homepage.php:101
+msgid ""
+"Două zile în care mixăm energia muzicii de zi cu cea a culturii cafelei de "
+"specialitate."
+msgstr ""
+"Two days where we blend the energy of daytime music with the culture of "
+"specialty coffee."
+
+#: templates/homepage.php:102
+msgid ""
+"O experiență vie, autentică, cu beat-uri curate, arome tari și oameni care "
+"simt înainte să înțeleagă."
+msgstr ""
+"A vibrant, authentic experience with clean beats, bold aromas, and people "
+"who feel before they understand."
+
+#: templates/homepage.php:105
+msgid "Pe 20-21 septembrie, la ROMAERO, redefinim ce înseamnă să ieși în oraș."
+msgstr "On September 20–21 at ROMAERO, we redefine what it means to go out."
+
+#: templates/homepage.php:106
+msgid "Nu e festival. Nu e târg."
+msgstr "It’s not a festival. It’s not a fair."
+
+#: templates/homepage.php:107
+msgid "E party. E <span>Ritual Urban</span>."
+msgstr "It’s a party. It’s an <span>Urban Ritual</span>."
+
+#: templates/homepage.php:128
+msgid "Artiști"
+msgstr "Artists"
+
+#: templates/homepage.php:135 templates/homepage.php:141
+#: templates/homepage.php:147 templates/homepage.php:153
+msgid "TBA"
+msgstr "TBA"
+
+#: templates/homepage.php:174
+msgid "Acces General | 2 zile"
+msgstr "General Access | 2 days"
+
+#: templates/homepage.php:197
+msgid "Acces VIP | 2 zile"
+msgstr "VIP Access | 2 days"
+
+#: templates/homepage.php:220
+msgid "Acces General | 1 zi"
+msgstr "General Access | 1 day"
+
+#: templates/homepage.php:243
+msgid "Acces VIP | 1 zi"
+msgstr "VIP Access | 1 day"
+
+#: templates/media-gallery.php:6
+msgid "Galerie media"
+msgstr "Media Gallery"
+
+#: templates/media-gallery.php:10
+msgid "Momentan nu există imagini în galerie."
+msgstr "There are currently no images in the gallery."
+
+#: templates/tickets.php:14
+msgid "Bilete vor fi disponibile în curând."
+msgstr "Tickets will be available soon."

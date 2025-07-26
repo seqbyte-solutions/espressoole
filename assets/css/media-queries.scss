@@ -1,0 +1,56 @@
+@media only screen and (max-width: 1024px) {
+  .tickets-section__ticket-item,
+  .artists-section__artist-item {
+    width: calc(100% / 2 - 20px);
+  }
+
+  .about-section__content-secondary {
+    flex-direction: column-reverse;
+  }
+
+  .footer__menu-list {
+    flex-direction: column;
+    gap: 10px;
+
+    .footer-menu-separator {
+      display: none;
+    }
+  }
+
+  .contact-section__content-row {
+    flex-direction: column;
+  }
+  .contact-map {
+    display: none;
+  }
+  .contact-map-mobile {
+    display: block;
+  }
+
+  .contact-section__form-container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .tickets-section__ticket-item {
+    width: calc(100%);
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  .faq-section__accordion-heading {
+    padding: 20px 5px;
+  }
+  .faq-section__accordion-content {
+    padding-inline: 5px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .first-section-padding {
+    padding-top: 100px;
+  }
+}
