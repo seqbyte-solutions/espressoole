@@ -31,6 +31,11 @@ class ThemeMenus
                     'page_slug' => 'bilete',
                 ],
                 [
+                    'title' => 'Urban Ritual Map',
+                    'type' => 'page',
+                    'page_slug' => 'harta',
+                ],
+                [
                     'title' => 'FAQ',
                     'type' => 'page',
                     'page_slug' => 'faq',
@@ -44,7 +49,6 @@ class ThemeMenus
                     'title' => 'Contact',
                     'type' => 'page',
                     'page_slug' => 'contact',
-
                 ]
                 ],
                 'footer-utils' => [

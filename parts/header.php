@@ -15,8 +15,8 @@ wp_enqueue_script('espressoole-header', ESPRESSOOLE_URL . '/assets/js/header.js'
                 <nav class="header__content-menu-nav">
                     <ul class="header__content-menu-list">
                         <li>
-                            <a href="<?= esc_url( get_permalink( pll_get_post( pll_get_post( get_page_by_path( 'bilete' )->ID, pll_current_language() ), pll_current_language() ) ) ); ?>" class="header__content-cta-button"><?= __('Cumpără bilete', 'espressoole') ?></a>
-                            <a href="<?= esc_url( get_permalink( pll_get_post( pll_get_post( get_page_by_path( 'bilete' )->ID, pll_current_language() ), pll_current_language() ) ) ); ?>" class="header__content-cta-button-mobile"><?= __('Bilete', 'espressoole') ?></a>
+                            <!-- <a href="<?= esc_url( get_permalink( pll_get_post( pll_get_post( get_page_by_path( 'bilete' )->ID, pll_current_language() ), pll_current_language() ) ) ); ?>" class="header__content-cta-button"><?= __('Cumpără bilete', 'espressoole') ?></a>
+                            <a href="<?= esc_url( get_permalink( pll_get_post( pll_get_post( get_page_by_path( 'bilete' )->ID, pll_current_language() ), pll_current_language() ) ) ); ?>" class="header__content-cta-button-mobile"><?= __('Bilete', 'espressoole') ?></a> -->
                         </li>
                         <li>
                             <button id="header__content-menu-burger-button" class="header__content-menu-burger-button" title="Menu">

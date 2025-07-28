@@ -78,7 +78,8 @@ body {
   padding: 0;
   font-family: "Roboto", sans-serif;
   background: var(--dark-brown-100);
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 h1,
@@ -161,4 +162,8 @@ h6 {
 
 .single-section-page {
   min-height: 100dvh;
+}
+
+.text-italic{
+  font-style: italic;
 }

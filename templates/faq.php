@@ -5,8 +5,14 @@
         <div class="heading-container center light">
             <h2><?= __("FAQ", "espressoole") ?></h2>
         </div>
-        <div class="faq-section__content">
-            <div class="faq-section__accordion-list">
+        <!-- <div class="faq-section__content"> -->
+        <div class="tickets-section__buy">
+              <h3>
+                    <?= __("FAQ vor fi disponibile în curând.", "espressoole") ?>
+                </h3>
+
+                    <img src="<?php echo esc_url(ESPRESSOOLE_URL . '/assets/img/fresh_roasted_party_logo.svg'); ?>" alt="Hero Image" />
+            <!-- <div class="faq-section__accordion-list">
                 <div class="faq-section__accordion-item">
                     <div class="faq-section__accordion-heading"><h3><?= __("Question 1", "espressoole") ?></h3></div>
                     <div 
@@ -49,7 +55,7 @@
 
                 </div>
 
-            </div>
+            </div> -->
 
         </div>
     

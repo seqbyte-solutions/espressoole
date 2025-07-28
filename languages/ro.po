@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Espressoole 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/espressoole\n"
-"POT-Creation-Date: 2025-07-26T23:15:09+00:00\n"
-"PO-Revision-Date: 2025-07-27 02:16+0300\n"
+"POT-Creation-Date: 2025-07-27T11:02:19+00:00\n"
+"PO-Revision-Date: 2025-07-27 14:12+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ro\n"
@@ -47,12 +47,11 @@ msgid ""
 "roasted"
 msgstr ""
 
-#: parts/header.php:18 templates/homepage.php:187 templates/homepage.php:210
-#: templates/homepage.php:233 templates/homepage.php:256
-msgid "Cumpără bilet"
+#: parts/header.php:18 templates/homepage.php:130
+msgid "Cumpără bilete"
 msgstr ""
 
-#: parts/header.php:19 templates/homepage.php:164 templates/tickets.php:8
+#: parts/header.php:19 templates/homepage.php:215 templates/tickets.php:8
 msgid "Bilete"
 msgstr ""
 
@@ -110,12 +109,16 @@ msgstr ""
 msgid "FAQ"
 msgstr ""
 
-#: templates/faq.php:11
+#: templates/faq.php:10
+msgid "FAQ vor fi disponibile în curând."
+msgstr ""
+
+#: templates/faq.php:16
 msgid "Question 1"
 msgstr ""
 
-#: templates/faq.php:14 templates/faq.php:26 templates/faq.php:36
-#: templates/faq.php:46
+#: templates/faq.php:19 templates/faq.php:31 templates/faq.php:41
+#: templates/faq.php:51
 msgid ""
 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eius placeat, "
 "nesciunt magnam maiores esse eligendi tenetur aperiam. Impedit odio suscipit "
@@ -130,105 +133,297 @@ msgid ""
 "tenetur voluptas."
 msgstr ""
 
-#: templates/faq.php:23
+#: templates/faq.php:28
 msgid "Question 2"
 msgstr ""
 
-#: templates/faq.php:33
+#: templates/faq.php:38
 msgid "Question 3"
 msgstr ""
 
-#: templates/faq.php:43
+#: templates/faq.php:48
 msgid "Question 4"
 msgstr ""
 
-#: templates/homepage.php:77
-msgid "20 - 21 Septembrie | Romaero, București"
+#: templates/homepage.php:10 templates/map.php:7
+msgid "Scena Principală"
 msgstr ""
 
-#: templates/homepage.php:79
-msgid "Cumpără bilete"
-msgstr ""
-
-#: templates/homepage.php:89
-msgid "Fresh Roasted Party"
-msgstr ""
-
-#: templates/homepage.php:90
-msgid "Un nou ritual urban începe"
-msgstr ""
-
-#: templates/homepage.php:93
-msgid "Ce-ar fi dacă energia dintr-o cafea bună ar lua formă?"
-msgstr ""
-
-#: templates/homepage.php:94
-msgid "Dacă aroma s-ar transforma în beat."
-msgstr ""
-
-#: templates/homepage.php:95
-msgid "Și dacă, pentru două zile, cafeaua chiar ar dansa?"
-msgstr ""
-
-#: templates/homepage.php:99
+#: templates/homepage.php:11 templates/map.php:8
 msgid ""
-"Când orașul merge pe pilot automat, tu cauți mai mult. Mai mult decât "
-"muzică. Mai mult decât cafea. Cauți vibe-ul. Cauți tribul tău."
+"Pregătește-te pentru un spectacol de neuitat pe <strong>Scena Principală</"
+"strong> Espressoole! Aici vei fi martorul unor demonstrații live susținute "
+"de barista de top, vei învăța secretele cafelei perfecte de la experți "
+"recunoscuți internațional și te vei bucura de sesiuni de degustare "
+"interactive. Pe parcursul zilei, scena va prinde viață cu muzică live, "
+"panouri de discuții despre cele mai noi tendințe din lumea cafelei și "
+"momente surpriză care te vor ține conectat la inima evenimentului. Nu rata "
+"ocazia de a fi inspirat și de a-ți extinde orizonturile cafelei!"
 msgstr ""
 
-#: templates/homepage.php:100
+#: templates/homepage.php:14 templates/homepage.php:604 templates/map.php:11
+#: templates/map.php:310
+msgid "VIP Lounge"
+msgstr ""
+
+#: templates/homepage.php:15 templates/map.php:12
 msgid ""
-"<span>Fresh Roasted Party</span> este mai mult decât un party. E un "
-"statement. Un spațiu creat pentru vibe seekers și coffee rebels."
+"Relaxează-te și bucură-te de o experiență exclusivistă în <strong>VIP "
+"Lounge</strong>. Acest spațiu elegant este dedicat oaspeților noștri "
+"speciali, oferind un refugiu liniștit departe de agitația evenimentului. Te "
+"vei delecta cu cafea de specialitate preparată personalizat, gustări "
+"rafinate și o selecție premium de băuturi. Este locul ideal pentru "
+"networking, întâlniri de afaceri sau pur și simplu pentru a te bucura de "
+"confort sporit, într-o atmosferă intimă. Accesul este limitat, asigurând o "
+"experiență de neuitat și servicii impecabile."
 msgstr ""
 
-#: templates/homepage.php:101
+#: templates/homepage.php:18 templates/homepage.php:622 templates/map.php:15
+#: templates/map.php:328
+msgid "Cafenele"
+msgstr ""
+
+#: templates/homepage.php:19 templates/map.php:16
 msgid ""
-"Două zile în care mixăm energia muzicii de zi cu cea a culturii cafelei de "
-"specialitate."
+"Descoperă o varietate impresionantă de arome și stiluri în zona noastră "
+"dedicată <strong>Cafenelelor</strong>. Aici, vei găsi o selecție curată a "
+"celor mai inovatoare și apreciate cafenele din țară, fiecare aducând propria "
+"viziune și pasiune pentru cafea. De la espresso-uri clasice la băuturi "
+"inovatoare cu lapte, ai ocazia să explorezi noi gusturi, să interacționezi "
+"cu barista talentați și să îți găsești următoarea cafea preferată. Fiecare "
+"stand este o poartă către o nouă poveste a cafelei."
 msgstr ""
 
-#: templates/homepage.php:102
+#: templates/homepage.php:22 templates/homepage.php:598 templates/map.php:19
+#: templates/map.php:304
+msgid "Coffee Village"
+msgstr ""
+
+#: templates/homepage.php:23 templates/map.php:20
 msgid ""
-"O experiență vie, autentică, cu beat-uri curate, arome tari și oameni care "
-"simt înainte să înțeleagă."
+"Pășește în inima culturii cafelei la <strong>Coffee Village</strong>! Acest "
+"sat vibrant reunește producători de cafea, prăjitori, distribuitori de "
+"echipamente și accesorii, oferindu-ți o panoramă completă a industriei. Vei "
+"putea degusta boabe rare, învăța despre procesul de prăjire, descoperi cele "
+"mai noi inovații în materie de echipamente și chiar achiziționa produse "
+"unice. Este locul perfect pentru a te scufunda în universul cafelei, a face "
+"networking și a descoperi noi afaceri și parteneriate."
 msgstr ""
 
-#: templates/homepage.php:105
-msgid "Pe 20-21 septembrie, la ROMAERO, redefinim ce înseamnă să ieși în oraș."
+#: templates/homepage.php:26 templates/homepage.php:628 templates/map.php:23
+#: templates/map.php:334
+msgid "Food Trucks"
 msgstr ""
 
-#: templates/homepage.php:106
-msgid "Nu e festival. Nu e târg."
+#: templates/homepage.php:27 templates/map.php:24
+msgid ""
+"Completează-ți experiența Espressoole cu delicii culinare variate, "
+"disponibile la zona noastră de <strong>Food Trucks</strong>. De la gustări "
+"rapide și savuroase la mese complete, vei găsi o gamă diversă de opțiuni "
+"care să-ți satisfacă orice poftă. Descoperă bucătării internaționale, "
+"specialități locale și deserturi tentante, perfecte pentru a-ți reîncărca "
+"bateriile între sesiunile de degustare de cafea. Indiferent de preferințele "
+"tale, vei găsi ceva delicios care să-ți încânte papilele gustative."
 msgstr ""
 
-#: templates/homepage.php:107
-msgid "E party. E <span>Ritual Urban</span>."
+#: templates/homepage.php:30 templates/homepage.php:616 templates/map.php:27
+#: templates/map.php:322
+msgid "Brunch"
+msgstr ""
+
+#: templates/homepage.php:31 templates/map.php:28
+msgid ""
+"Răsfață-te cu un <strong>Brunch</strong> delicios, conceput special pentru a "
+"completa perfect aromele bogate ale cafelei. Zona de brunch oferă o selecție "
+"rafinată de preparate dulci și sărate, de la patiserii proaspete și "
+"sandvișuri gourmet, la salate revigorante și opțiuni vegane. Este locul "
+"ideal pentru a te bucura de o masă relaxată alături de prieteni, într-o "
+"atmosferă primitoare. Începe-ți ziua la eveniment cu energie și savoare, "
+"combinând cafeaua de calitate cu o masă pe măsură."
+msgstr ""
+
+#: templates/homepage.php:34 templates/homepage.php:634 templates/map.php:31
+#: templates/map.php:340
+msgid "Bar"
+msgstr ""
+
+#: templates/homepage.php:35 templates/map.php:32
+msgid ""
+"După o zi plină de arome și descoperiri, relaxează-te la <strong>Barul</"
+"strong> nostru, unde vei găsi o selecție excelentă de băuturi. De la "
+"cocktailuri clasice cu infuzii de cafea și băuturi răcoritoare, la o gamă "
+"variată de beri artizanale și vinuri selectate, barul este locul perfect "
+"pentru a te destinde. Bucură-te de o băutură într-o atmosferă vibrantă, "
+"alături de ceilalți participanți, și încheie-ți ziua de eveniment într-o "
+"notă relaxantă și plină de voie bună."
+msgstr ""
+
+#: templates/homepage.php:38 templates/homepage.php:658 templates/map.php:35
+#: templates/map.php:364
+msgid "Toalete"
+msgstr ""
+
+#: templates/homepage.php:39 templates/map.php:36
+msgid ""
+"Confortul tău este important pentru noi. Am asigurat facilități "
+"<strong>Toalete</strong> curate și bine întreținute, amplasate strategic în "
+"incinta evenimentului, pentru a-ți asigura o experiență cât mai plăcută și "
+"lipsită de griji. Semnalizarea clară te va ghida rapid către cele mai "
+"apropiate toalete, iar personalul nostru va asigura igienizarea constantă pe "
+"tot parcursul zilei. Ne dorim să te simți confortabil și relaxat pe durata "
+"vizitei tale la Espressoole."
+msgstr ""
+
+#: templates/homepage.php:42 templates/homepage.php:652 templates/map.php:39
+#: templates/map.php:358
+msgid "Activări Auto-Moto"
+msgstr ""
+
+#: templates/homepage.php:43 templates/map.php:40
+msgid ""
+"Pregătește-te pentru o doză de adrenalină la zona de <strong>Activări Auto-"
+"Moto</strong>! Aici, vei fi martorul unor demonstrații spectaculoase cu "
+"mașini și motociclete, vei admira modele clasice și de ultimă generație și "
+"vei putea interacționa cu experți din domeniu. Descoperă cele mai noi "
+"tehnologii, participă la concursuri tematice și simte pulsul inovației pe "
+"două sau patru roți. Această zonă aduce un plus de energie și acțiune "
+"evenimentului, transformând pasiunea pentru cafea într-o experiență "
+"completă, ce include și motoarele."
+msgstr ""
+
+#: templates/homepage.php:47 templates/homepage.php:640 templates/map.php:44
+#: templates/map.php:346
+msgid "Family Corner"
+msgstr ""
+
+#: templates/homepage.php:48 templates/map.php:45
+msgid ""
+"Evenimentul Espressoole este o experiență pentru întreaga familie! În "
+"<strong>Family Corner</strong>, cei mici se vor bucura de activități "
+"creative și distractive, într-un spațiu sigur și supravegheat. De la "
+"ateliere de desen la jocuri interactive, am pregătit momente memorabile "
+"pentru copii, permițând părinților să se bucure în liniște de eveniment. "
+"Este locul ideal pentru ca familiile să se relaxeze și să creeze amintiri "
+"frumoase împreună."
+msgstr ""
+
+#: templates/homepage.php:51 templates/homepage.php:646 templates/map.php:48
+#: templates/map.php:352
+msgid "Sponsori"
+msgstr ""
+
+#: templates/homepage.php:52 templates/map.php:49
+msgid ""
+"Mulțumim partenerilor și <strong>Sponsorilor</strong> noștri, fără de care "
+"evenimentul Espressoole nu ar fi posibil. Vă invităm să vizitați standurile "
+"acestora pentru a descoperi produse și servicii inovatoare, oferte speciale "
+"și pentru a interacționa direct cu reprezentanții lor. Sprijinul lor ne "
+"permite să oferim o experiență de înaltă calitate și să aducem la un loc "
+"comunitatea pasionaților de cafea. Aflați mai multe despre companiile care "
+"cred în viziunea noastră!"
 msgstr ""
 
 #: templates/homepage.php:128
-msgid "Artiști"
+msgid "20 - 21 Septembrie | Romaero, București"
 msgstr ""
 
-#: templates/homepage.php:135 templates/homepage.php:141
-#: templates/homepage.php:147 templates/homepage.php:153
+#: templates/homepage.php:140
+msgid ""
+"Dacă energia și aroma dintr-o cafea bună s-ar transforma într-un <span "
+"class=\"text-italic\">beat</span>?"
+msgstr ""
+
+#: templates/homepage.php:141
+msgid "Un Ritual Urban ar începe"
+msgstr ""
+
+#: templates/homepage.php:145
+msgid ""
+"Ce-ar fi dacă energia și aroma dintr-o cafea bună s-ar transforma într-un "
+"beat?"
+msgstr ""
+
+#: templates/homepage.php:149
+msgid ""
+"<span class=\"text-orange text-big\">Fresh Roasted Party</span> un "
+"statement, un spațiu creat pentru vibe seekers și coffee rebels."
+msgstr ""
+
+#: templates/homepage.php:150
+msgid ""
+"Când orașul merge pe pilot automat, tu cauți mai mult. Cauți vibe-ul. Cauți "
+"tribul tău."
+msgstr ""
+
+#: templates/homepage.php:151
+msgid ""
+"<span class=\"text-italic\">Beat-uri</span> curate, arome tari și oameni "
+"care simt înainte să înțeleagă."
+msgstr ""
+
+#: templates/homepage.php:154
+msgid ""
+"Pe 20-21 septembrie, la Romaero e party, E <span  class=\"text-orange text-"
+"big\">Ritual Urban</span>"
+msgstr ""
+
+#: templates/homepage.php:178
+msgid "Line-up"
+msgstr ""
+
+#: templates/homepage.php:186 templates/homepage.php:192
+#: templates/homepage.php:198 templates/homepage.php:204
 msgid "TBA"
 msgstr ""
 
-#: templates/homepage.php:174
-msgid "Acces General | 2 zile"
-msgstr ""
-
-#: templates/homepage.php:197
-msgid "Acces VIP | 2 zile"
-msgstr ""
-
-#: templates/homepage.php:220
+#: templates/homepage.php:228
 msgid "Acces General | 1 zi"
 msgstr ""
 
-#: templates/homepage.php:243
+#: templates/homepage.php:241 templates/homepage.php:268
+#: templates/homepage.php:295 templates/homepage.php:323
+msgid "Cumpără bilet"
+msgstr ""
+
+#: templates/homepage.php:242 templates/homepage.php:269
+#: templates/homepage.php:296 templates/homepage.php:324
+msgid "Disponibil în curând"
+msgstr ""
+
+#: templates/homepage.php:255
+msgid "Acces General | 2 zile"
+msgstr ""
+
+#: templates/homepage.php:282
 msgid "Acces VIP | 1 zi"
+msgstr ""
+
+#: templates/homepage.php:309
+msgid "Acces VIP | 2 zile"
+msgstr ""
+
+#: templates/homepage.php:336
+msgid "Parteneri"
+msgstr ""
+
+#: templates/homepage.php:356 templates/map.php:62
+msgid "Urban Ritual Map"
+msgstr ""
+
+#: templates/homepage.php:586 templates/map.php:292
+msgid "Legendă"
+msgstr ""
+
+#: templates/homepage.php:592 templates/map.php:298
+msgid "Main Stage"
+msgstr ""
+
+#: templates/homepage.php:610 templates/map.php:316
+msgid "Check-in"
+msgstr ""
+
+#: templates/homepage.php:676 templates/map.php:376
+msgid "Informații despre hartă"
 msgstr ""
 
 #: templates/media-gallery.php:6

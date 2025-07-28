@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Espressoole 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/espressoole\n"
-"POT-Creation-Date: 2025-07-26T23:15:09+00:00\n"
-"PO-Revision-Date: 2025-07-27 02:16+0300\n"
+"POT-Creation-Date: 2025-07-27T11:02:19+00:00\n"
+"PO-Revision-Date: 2025-07-27 14:11+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_GB\n"
@@ -51,12 +51,11 @@ msgstr ""
 "Espressoole, coffee, espresso, party, urban ritual, VIP, Romaero, fresh, "
 "roasted"
 
-#: parts/header.php:18 templates/homepage.php:187 templates/homepage.php:210
-#: templates/homepage.php:233 templates/homepage.php:256
-msgid "Cumpără bilet"
-msgstr "Buy ticket"
+#: parts/header.php:18 templates/homepage.php:130
+msgid "Cumpără bilete"
+msgstr "Buy tickets"
 
-#: parts/header.php:19 templates/homepage.php:164 templates/tickets.php:8
+#: parts/header.php:19 templates/homepage.php:215 templates/tickets.php:8
 msgid "Bilete"
 msgstr "Tickets"
 
@@ -116,12 +115,16 @@ msgstr "Loading"
 msgid "FAQ"
 msgstr "FAQ"
 
-#: templates/faq.php:11
+#: templates/faq.php:10
+msgid "FAQ vor fi disponibile în curând."
+msgstr "FAQs will be available soon."
+
+#: templates/faq.php:16
 msgid "Question 1"
 msgstr ""
 
-#: templates/faq.php:14 templates/faq.php:26 templates/faq.php:36
-#: templates/faq.php:46
+#: templates/faq.php:19 templates/faq.php:31 templates/faq.php:41
+#: templates/faq.php:51
 msgid ""
 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eius placeat, "
 "nesciunt magnam maiores esse eligendi tenetur aperiam. Impedit odio suscipit "
@@ -136,114 +139,380 @@ msgid ""
 "tenetur voluptas."
 msgstr ""
 
-#: templates/faq.php:23
+#: templates/faq.php:28
 msgid "Question 2"
 msgstr ""
 
-#: templates/faq.php:33
+#: templates/faq.php:38
 msgid "Question 3"
 msgstr ""
 
-#: templates/faq.php:43
+#: templates/faq.php:48
 msgid "Question 4"
 msgstr ""
 
-#: templates/homepage.php:77
+#: templates/homepage.php:10 templates/map.php:7
+msgid "Scena Principală"
+msgstr "Main Stage"
+
+#: templates/homepage.php:11 templates/map.php:8
+msgid ""
+"Pregătește-te pentru un spectacol de neuitat pe <strong>Scena Principală</"
+"strong> Espressoole! Aici vei fi martorul unor demonstrații live susținute "
+"de barista de top, vei învăța secretele cafelei perfecte de la experți "
+"recunoscuți internațional și te vei bucura de sesiuni de degustare "
+"interactive. Pe parcursul zilei, scena va prinde viață cu muzică live, "
+"panouri de discuții despre cele mai noi tendințe din lumea cafelei și "
+"momente surpriză care te vor ține conectat la inima evenimentului. Nu rata "
+"ocazia de a fi inspirat și de a-ți extinde orizonturile cafelei!"
+msgstr ""
+"Get ready for an unforgettable show on the <strong>Main Stage</strong> at "
+"Espressoole! Here, you’ll witness live demos from top baristas, learn the "
+"secrets of perfect coffee from internationally renowned experts, and enjoy "
+"interactive tasting sessions. Throughout the day, the stage will come alive "
+"with live music, panel discussions on the latest coffee trends, and surprise "
+"moments that keep you connected to the heart of the event. Don’t miss the "
+"chance to be inspired and expand your coffee horizons!"
+
+#: templates/homepage.php:14 templates/homepage.php:604 templates/map.php:11
+#: templates/map.php:310
+msgid "VIP Lounge"
+msgstr "VIP Lounge"
+
+#: templates/homepage.php:15 templates/map.php:12
+msgid ""
+"Relaxează-te și bucură-te de o experiență exclusivistă în <strong>VIP "
+"Lounge</strong>. Acest spațiu elegant este dedicat oaspeților noștri "
+"speciali, oferind un refugiu liniștit departe de agitația evenimentului. Te "
+"vei delecta cu cafea de specialitate preparată personalizat, gustări "
+"rafinate și o selecție premium de băuturi. Este locul ideal pentru "
+"networking, întâlniri de afaceri sau pur și simplu pentru a te bucura de "
+"confort sporit, într-o atmosferă intimă. Accesul este limitat, asigurând o "
+"experiență de neuitat și servicii impecabile."
+msgstr ""
+"Relax and enjoy an exclusive experience in the <strong>VIP Lounge</strong>. "
+"This elegant space is dedicated to our special guests, offering a peaceful "
+"retreat from the bustle of the event. Indulge in custom-made specialty "
+"coffee, refined snacks, and a premium selection of beverages. It’s the ideal "
+"spot for networking, business meetings, or simply relaxing in a cosy "
+"atmosphere. Access is limited, ensuring an unforgettable experience and "
+"impeccable service."
+
+#: templates/homepage.php:18 templates/homepage.php:622 templates/map.php:15
+#: templates/map.php:328
+msgid "Cafenele"
+msgstr "Cafés"
+
+#: templates/homepage.php:19 templates/map.php:16
+msgid ""
+"Descoperă o varietate impresionantă de arome și stiluri în zona noastră "
+"dedicată <strong>Cafenelelor</strong>. Aici, vei găsi o selecție curată a "
+"celor mai inovatoare și apreciate cafenele din țară, fiecare aducând propria "
+"viziune și pasiune pentru cafea. De la espresso-uri clasice la băuturi "
+"inovatoare cu lapte, ai ocazia să explorezi noi gusturi, să interacționezi "
+"cu barista talentați și să îți găsești următoarea cafea preferată. Fiecare "
+"stand este o poartă către o nouă poveste a cafelei."
+msgstr ""
+"Discover an impressive variety of flavours and styles in our <strong>Cafés</"
+"strong> area. Here, you’ll find a curated selection of the country’s most "
+"innovative and beloved cafés, each bringing its own vision and passion for "
+"coffee. From classic espressos to innovative milk-based drinks, you’ll get "
+"to explore new flavours, interact with talented baristas, and discover your "
+"next favourite coffee. Every stand tells a new coffee story."
+
+#: templates/homepage.php:22 templates/homepage.php:598 templates/map.php:19
+#: templates/map.php:304
+msgid "Coffee Village"
+msgstr "Coffee Village"
+
+#: templates/homepage.php:23 templates/map.php:20
+msgid ""
+"Pășește în inima culturii cafelei la <strong>Coffee Village</strong>! Acest "
+"sat vibrant reunește producători de cafea, prăjitori, distribuitori de "
+"echipamente și accesorii, oferindu-ți o panoramă completă a industriei. Vei "
+"putea degusta boabe rare, învăța despre procesul de prăjire, descoperi cele "
+"mai noi inovații în materie de echipamente și chiar achiziționa produse "
+"unice. Este locul perfect pentru a te scufunda în universul cafelei, a face "
+"networking și a descoperi noi afaceri și parteneriate."
+msgstr ""
+"Step into the heart of coffee culture at the <strong>Coffee Village</"
+"strong>! This vibrant village brings together coffee producers, roasters, "
+"equipment and accessories distributors, offering a complete panorama of the "
+"industry. Taste rare beans, learn about the roasting process, discover the "
+"latest innovations in equipment, and even purchase unique products. It’s the "
+"perfect place to immerse yourself in the coffee world, network, and discover "
+"new businesses and partnerships."
+
+#: templates/homepage.php:26 templates/homepage.php:628 templates/map.php:23
+#: templates/map.php:334
+msgid "Food Trucks"
+msgstr "Food Trucks"
+
+#: templates/homepage.php:27 templates/map.php:24
+msgid ""
+"Completează-ți experiența Espressoole cu delicii culinare variate, "
+"disponibile la zona noastră de <strong>Food Trucks</strong>. De la gustări "
+"rapide și savuroase la mese complete, vei găsi o gamă diversă de opțiuni "
+"care să-ți satisfacă orice poftă. Descoperă bucătării internaționale, "
+"specialități locale și deserturi tentante, perfecte pentru a-ți reîncărca "
+"bateriile între sesiunile de degustare de cafea. Indiferent de preferințele "
+"tale, vei găsi ceva delicios care să-ți încânte papilele gustative."
+msgstr ""
+"Complete your Espressoole experience with a variety of culinary delights "
+"available in our <strong>Food Trucks</strong> area. From quick, tasty snacks "
+"to full meals, you’ll find a diverse range of options to satisfy every "
+"craving. Explore international cuisines, local specialties, and tempting "
+"desserts—perfect for recharging between coffee tastings. No matter your "
+"preferences, you’ll find something delicious to delight your taste buds."
+
+#: templates/homepage.php:30 templates/homepage.php:616 templates/map.php:27
+#: templates/map.php:322
+msgid "Brunch"
+msgstr "Brunch"
+
+#: templates/homepage.php:31 templates/map.php:28
+msgid ""
+"Răsfață-te cu un <strong>Brunch</strong> delicios, conceput special pentru a "
+"completa perfect aromele bogate ale cafelei. Zona de brunch oferă o selecție "
+"rafinată de preparate dulci și sărate, de la patiserii proaspete și "
+"sandvișuri gourmet, la salate revigorante și opțiuni vegane. Este locul "
+"ideal pentru a te bucura de o masă relaxată alături de prieteni, într-o "
+"atmosferă primitoare. Începe-ți ziua la eveniment cu energie și savoare, "
+"combinând cafeaua de calitate cu o masă pe măsură."
+msgstr ""
+"Treat yourself to a delicious <strong>Brunch</strong>, specially designed to "
+"perfectly complement the rich aromas of coffee. The brunch area offers a "
+"refined selection of sweet and savoury dishes—from fresh pastries and "
+"gourmet sandwiches to refreshing salads and vegan options. It’s the perfect "
+"spot to enjoy a relaxed meal with friends in a welcoming atmosphere. Start "
+"your event day with energy and flavour by pairing high-quality coffee with a "
+"great meal."
+
+#: templates/homepage.php:34 templates/homepage.php:634 templates/map.php:31
+#: templates/map.php:340
+msgid "Bar"
+msgstr "Bar"
+
+#: templates/homepage.php:35 templates/map.php:32
+msgid ""
+"După o zi plină de arome și descoperiri, relaxează-te la <strong>Barul</"
+"strong> nostru, unde vei găsi o selecție excelentă de băuturi. De la "
+"cocktailuri clasice cu infuzii de cafea și băuturi răcoritoare, la o gamă "
+"variată de beri artizanale și vinuri selectate, barul este locul perfect "
+"pentru a te destinde. Bucură-te de o băutură într-o atmosferă vibrantă, "
+"alături de ceilalți participanți, și încheie-ți ziua de eveniment într-o "
+"notă relaxantă și plină de voie bună."
+msgstr ""
+"After a day full of flavours and discoveries, unwind at our <strong>Bar</"
+"strong>, where you’ll find an excellent selection of beverages. From classic "
+"coffee-infused cocktails and refreshing drinks to a variety of craft beers "
+"and fine wines, the bar is the perfect place to relax. Enjoy a drink in a "
+"vibrant atmosphere alongside other attendees, and end your event day on a "
+"high note."
+
+#: templates/homepage.php:38 templates/homepage.php:658 templates/map.php:35
+#: templates/map.php:364
+msgid "Toalete"
+msgstr "Toilets"
+
+#: templates/homepage.php:39 templates/map.php:36
+msgid ""
+"Confortul tău este important pentru noi. Am asigurat facilități "
+"<strong>Toalete</strong> curate și bine întreținute, amplasate strategic în "
+"incinta evenimentului, pentru a-ți asigura o experiență cât mai plăcută și "
+"lipsită de griji. Semnalizarea clară te va ghida rapid către cele mai "
+"apropiate toalete, iar personalul nostru va asigura igienizarea constantă pe "
+"tot parcursul zilei. Ne dorim să te simți confortabil și relaxat pe durata "
+"vizitei tale la Espressoole."
+msgstr ""
+"Your comfort is important to us. We’ve ensured clean, well-maintained "
+"<strong>Toilets</strong>, strategically placed throughout the event space, "
+"so you can have a worry-free and pleasant experience. Clear signage will "
+"guide you quickly to the nearest restrooms, and our staff will provide "
+"continuous sanitation throughout the day. We want you to feel comfortable "
+"and relaxed during your visit to Espressoole."
+
+#: templates/homepage.php:42 templates/homepage.php:652 templates/map.php:39
+#: templates/map.php:358
+msgid "Activări Auto-Moto"
+msgstr "Auto-Moto Activations"
+
+#: templates/homepage.php:43 templates/map.php:40
+msgid ""
+"Pregătește-te pentru o doză de adrenalină la zona de <strong>Activări Auto-"
+"Moto</strong>! Aici, vei fi martorul unor demonstrații spectaculoase cu "
+"mașini și motociclete, vei admira modele clasice și de ultimă generație și "
+"vei putea interacționa cu experți din domeniu. Descoperă cele mai noi "
+"tehnologii, participă la concursuri tematice și simte pulsul inovației pe "
+"două sau patru roți. Această zonă aduce un plus de energie și acțiune "
+"evenimentului, transformând pasiunea pentru cafea într-o experiență "
+"completă, ce include și motoarele."
+msgstr ""
+"Get ready for a rush of adrenaline in the <strong>Auto-Moto Activations</"
+"strong> zone! Here, you’ll witness spectacular car and motorcycle "
+"demonstrations, admire classic and cutting-edge models, and engage with "
+"industry experts. Discover the latest technologies, take part in themed "
+"contests, and feel the pulse of innovation on two or four wheels. This area "
+"adds an energetic and dynamic layer to the event, turning coffee passion "
+"into a full-throttle experience."
+
+#: templates/homepage.php:47 templates/homepage.php:640 templates/map.php:44
+#: templates/map.php:346
+msgid "Family Corner"
+msgstr "Family Corner"
+
+#: templates/homepage.php:48 templates/map.php:45
+msgid ""
+"Evenimentul Espressoole este o experiență pentru întreaga familie! În "
+"<strong>Family Corner</strong>, cei mici se vor bucura de activități "
+"creative și distractive, într-un spațiu sigur și supravegheat. De la "
+"ateliere de desen la jocuri interactive, am pregătit momente memorabile "
+"pentru copii, permițând părinților să se bucure în liniște de eveniment. "
+"Este locul ideal pentru ca familiile să se relaxeze și să creeze amintiri "
+"frumoase împreună."
+msgstr ""
+"The Espressoole event is an experience for the whole family! In the "
+"<strong>Family Corner</strong>, little ones will enjoy creative and fun "
+"activities in a safe and supervised space. From drawing workshops to "
+"interactive games, we’ve prepared memorable moments for children, giving "
+"parents the chance to relax and enjoy the event. It’s the perfect place for "
+"families to unwind and create beautiful memories together."
+
+#: templates/homepage.php:51 templates/homepage.php:646 templates/map.php:48
+#: templates/map.php:352
+msgid "Sponsori"
+msgstr "Sponsors"
+
+#: templates/homepage.php:52 templates/map.php:49
+msgid ""
+"Mulțumim partenerilor și <strong>Sponsorilor</strong> noștri, fără de care "
+"evenimentul Espressoole nu ar fi posibil. Vă invităm să vizitați standurile "
+"acestora pentru a descoperi produse și servicii inovatoare, oferte speciale "
+"și pentru a interacționa direct cu reprezentanții lor. Sprijinul lor ne "
+"permite să oferim o experiență de înaltă calitate și să aducem la un loc "
+"comunitatea pasionaților de cafea. Aflați mai multe despre companiile care "
+"cred în viziunea noastră!"
+msgstr ""
+"We thank our partners and <strong>Sponsors</strong>, without whom the "
+"Espressoole event wouldn’t be possible. We invite you to visit their stands "
+"to discover innovative products and services, special offers, and engage "
+"directly with their representatives. Their support enables us to deliver a "
+"high-quality experience and bring the coffee-loving community together. "
+"Learn more about the companies that believe in our vision!"
+
+#: templates/homepage.php:128
 msgid "20 - 21 Septembrie | Romaero, București"
 msgstr "20–21 September | Romaero, Bucharest"
 
-#: templates/homepage.php:79
-msgid "Cumpără bilete"
-msgstr "Buy tickets"
+#: templates/homepage.php:140
+msgid ""
+"Dacă energia și aroma dintr-o cafea bună s-ar transforma într-un <span "
+"class=\"text-italic\">beat</span>?"
+msgstr ""
+"What if the energy and aroma of a good coffee turned into a <span "
+"class=\"text-italic\">beat</span>?"
 
-#: templates/homepage.php:89
-msgid "Fresh Roasted Party"
-msgstr "Fresh Roasted Party"
-
-#: templates/homepage.php:90
-msgid "Un nou ritual urban începe"
+#: templates/homepage.php:141
+msgid "Un Ritual Urban ar începe"
 msgstr "A new urban ritual begins"
 
-#: templates/homepage.php:93
-msgid "Ce-ar fi dacă energia dintr-o cafea bună ar lua formă?"
-msgstr "What if the energy of a good coffee took shape?"
-
-#: templates/homepage.php:94
-msgid "Dacă aroma s-ar transforma în beat."
-msgstr "If its aroma turned into a beat."
-
-#: templates/homepage.php:95
-msgid "Și dacă, pentru două zile, cafeaua chiar ar dansa?"
-msgstr "And what if, for two days, coffee really danced?"
-
-#: templates/homepage.php:99
+#: templates/homepage.php:145
 msgid ""
-"Când orașul merge pe pilot automat, tu cauți mai mult. Mai mult decât "
-"muzică. Mai mult decât cafea. Cauți vibe-ul. Cauți tribul tău."
-msgstr ""
-"When the city runs on autopilot, you’re looking for more. More than music. "
-"More than coffee. You’re searching for the vibe. For your tribe."
+"Ce-ar fi dacă energia și aroma dintr-o cafea bună s-ar transforma într-un "
+"beat?"
+msgstr "What if the energy and aroma of a good coffee turned into a beat?"
 
-#: templates/homepage.php:100
+#: templates/homepage.php:149
 msgid ""
-"<span>Fresh Roasted Party</span> este mai mult decât un party. E un "
-"statement. Un spațiu creat pentru vibe seekers și coffee rebels."
+"<span class=\"text-orange text-big\">Fresh Roasted Party</span> un "
+"statement, un spațiu creat pentru vibe seekers și coffee rebels."
 msgstr ""
-"<span>Fresh Roasted Party</span> is more than just a party. It’s a "
-"statement. A space created for vibe seekers and coffee rebels."
+"<span class=\"text-orange text-big\">Fresh Roasted Party</span> is more than "
+"just a party. It’s a statement. A space created for vibe seekers and coffee "
+"rebels."
 
-#: templates/homepage.php:101
+#: templates/homepage.php:150
 msgid ""
-"Două zile în care mixăm energia muzicii de zi cu cea a culturii cafelei de "
-"specialitate."
+"Când orașul merge pe pilot automat, tu cauți mai mult. Cauți vibe-ul. Cauți "
+"tribul tău."
 msgstr ""
-"Two days where we blend the energy of daytime music with the culture of "
-"specialty coffee."
+"When the city runs on autopilot, you’re looking for more. You’re looking for "
+"the vibe. You’re looking for your tribe."
 
-#: templates/homepage.php:102
+#: templates/homepage.php:151
 msgid ""
-"O experiență vie, autentică, cu beat-uri curate, arome tari și oameni care "
-"simt înainte să înțeleagă."
+"<span class=\"text-italic\">Beat-uri</span> curate, arome tari și oameni "
+"care simt înainte să înțeleagă."
 msgstr ""
-"A vibrant, authentic experience with clean beats, bold aromas, and people "
-"who feel before they understand."
+"Clean <span class=\"text-italic\">beats</span>, bold aromas, and people who "
+"feel before they understand."
 
-#: templates/homepage.php:105
-msgid "Pe 20-21 septembrie, la ROMAERO, redefinim ce înseamnă să ieși în oraș."
-msgstr "On September 20–21 at ROMAERO, we redefine what it means to go out."
+#: templates/homepage.php:154
+msgid ""
+"Pe 20-21 septembrie, la Romaero e party, E <span  class=\"text-orange text-"
+"big\">Ritual Urban</span>"
+msgstr ""
+"On September 20–21 at Romaero, it’s a party — it’s a <span class=\"text-"
+"orange text-big\">Urban Ritual</span>"
 
-#: templates/homepage.php:106
-msgid "Nu e festival. Nu e târg."
-msgstr "It’s not a festival. It’s not a fair."
+#: templates/homepage.php:178
+msgid "Line-up"
+msgstr "Line-up"
 
-#: templates/homepage.php:107
-msgid "E party. E <span>Ritual Urban</span>."
-msgstr "It’s a party. It’s an <span>Urban Ritual</span>."
-
-#: templates/homepage.php:128
-msgid "Artiști"
-msgstr "Artists"
-
-#: templates/homepage.php:135 templates/homepage.php:141
-#: templates/homepage.php:147 templates/homepage.php:153
+#: templates/homepage.php:186 templates/homepage.php:192
+#: templates/homepage.php:198 templates/homepage.php:204
 msgid "TBA"
 msgstr "TBA"
 
-#: templates/homepage.php:174
-msgid "Acces General | 2 zile"
-msgstr "General Access | 2 days"
-
-#: templates/homepage.php:197
-msgid "Acces VIP | 2 zile"
-msgstr "VIP Access | 2 days"
-
-#: templates/homepage.php:220
+#: templates/homepage.php:228
 msgid "Acces General | 1 zi"
 msgstr "General Access | 1 day"
 
-#: templates/homepage.php:243
+#: templates/homepage.php:241 templates/homepage.php:268
+#: templates/homepage.php:295 templates/homepage.php:323
+msgid "Cumpără bilet"
+msgstr "Buy ticket"
+
+#: templates/homepage.php:242 templates/homepage.php:269
+#: templates/homepage.php:296 templates/homepage.php:324
+msgid "Disponibil în curând"
+msgstr "Tickets will be available soon."
+
+#: templates/homepage.php:255
+msgid "Acces General | 2 zile"
+msgstr "General Access | 2 days"
+
+#: templates/homepage.php:282
 msgid "Acces VIP | 1 zi"
 msgstr "VIP Access | 1 day"
+
+#: templates/homepage.php:309
+msgid "Acces VIP | 2 zile"
+msgstr "VIP Access | 2 days"
+
+#: templates/homepage.php:336
+msgid "Parteneri"
+msgstr "Partners"
+
+#: templates/homepage.php:356 templates/map.php:62
+msgid "Urban Ritual Map"
+msgstr "Urban Ritual Map"
+
+#: templates/homepage.php:586 templates/map.php:292
+msgid "Legendă"
+msgstr "Legend"
+
+#: templates/homepage.php:592 templates/map.php:298
+msgid "Main Stage"
+msgstr "Main Stage"
+
+#: templates/homepage.php:610 templates/map.php:316
+msgid "Check-in"
+msgstr "Check-in"
+
+#: templates/homepage.php:676 templates/map.php:376
+msgid "Informații despre hartă"
+msgstr "Map Information"
 
 #: templates/media-gallery.php:6
 msgid "Galerie media"
@@ -256,3 +525,32 @@ msgstr "There are currently no images in the gallery."
 #: templates/tickets.php:14
 msgid "Bilete vor fi disponibile în curând."
 msgstr "Tickets will be available soon."
+
+#~ msgid "Fresh Roasted Party"
+#~ msgstr "Fresh Roasted Party"
+
+#~ msgid "Dacă aroma s-ar transforma în beat."
+#~ msgstr "If its aroma turned into a beat."
+
+#~ msgid "Și dacă, pentru două zile, cafeaua chiar ar dansa?"
+#~ msgstr "And what if, for two days, coffee really danced?"
+
+#~ msgid ""
+#~ "Două zile în care mixăm energia muzicii de zi cu cea a culturii cafelei "
+#~ "de specialitate."
+#~ msgstr ""
+#~ "Two days where we blend the energy of daytime music with the culture of "
+#~ "specialty coffee."
+
+#~ msgid ""
+#~ "Pe 20-21 septembrie, la ROMAERO, redefinim ce înseamnă să ieși în oraș."
+#~ msgstr "On September 20–21 at ROMAERO, we redefine what it means to go out."
+
+#~ msgid "Nu e festival. Nu e târg."
+#~ msgstr "It’s not a festival. It’s not a fair."
+
+#~ msgid "E party. E <span>Ritual Urban</span>."
+#~ msgstr "It’s a party. It’s an <span>Urban Ritual</span>."
+
+#~ msgid "Artiști"
+#~ msgstr "Artists"
